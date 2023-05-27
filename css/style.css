@@ -6,6 +6,7 @@
     margin: 2% 35% 10px;
     border: 1px solid rgb(223, 218, 218);
     padding: 2% 0 4px;
+    height: 600px;
 }
 .login-page p{
     text-align: center;
@@ -81,17 +82,16 @@ text-align: center;
 .form p{
     font: black;
 }
-@media screen and (max-width:550px) 
+@media screen and (max-width:650px) 
  {
-  body  {
-background-color: rgb(233, 231, 236);
- }
  .login-page{
-    width: fit-content;
-    margin: 2% 0% 0;
-    background-image: fade;
-    padding: 20% 20% 0;
+    display: flex;
+    margin: auto;
  }
-
-
+ .login-page img{
+    display: none;
+ }
+ .login-page p{
+    display: none;
+ }
 }
